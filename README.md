@@ -32,7 +32,7 @@ The dataset is comprised of 555,719 transactions and 22 attributes, featuring a 
 ## Recommendations
 - Increase monitoring during high-risk times and platforms based on model insights.
 - Foster collaboration with industry partners for continuous model improvement.
-- Promote awareness of fraud patterns among stakeholders.
+- Promote awareness of fraud patterns among stakeholders
 
 ## Conclusion
 Effective fraud detection demands continuous innovation. By combining robust machine learning techniques with interpretable insights, this project demonstrates how data science can strengthen financial security and adapt to evolving threats.
