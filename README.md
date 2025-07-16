@@ -8,25 +8,26 @@ This project leverages machine learning to detect fraudulent credit card transac
 The dataset is comprised of 555,719 transactions and 22 attributes, featuring a balanced mix of numerical and categorical variables. With no missing values, it offers a clean and reliable foundation for predictive modelling.
 
 ## Project Objectives
-- Develop high-accuracy classification models to detect fraudulent transactions and minimise financial losses.
-- Enhance model reliability by reducing false positives through feature engineering, data balancing, and AUC-based evaluation.
-- Deliver interpretable insights to inform fraud prevention strategies.
+- Develop high-accuracy classification models to detect fraudulent transactions and minimise financial losses
+- Enhance model reliability by reducing false positives through feature engineering, data balancing, and AUC-based evaluation
+- Deliver interpretable insights to inform fraud prevention strategies
 
 ## Methodology
-- Performed extensive data cleaning, feature engineering (eg. creation of age and time category variables), and one-hot encoding for categorical features.
-- Addressed class imbalance through undersampling techniques to improve model sensitivity.
-- Conducted statistical testing (chi-squared, correlation coefficients, Mann–Whitney U) and visual analysis to identify key data patterns.
-- Trained and evaluated models such as Random Forest, Logistic Regression, Multi-Layer Perceptron (MLP), and K-Nearest Neighbours (KNN).
-- Assessed models using accuracy, True Positive Rate (TPR), False Positive Rate (FPR), and AUC metrics.
+- **Data Processing**: Performed extensive data cleaning, feature engineering (eg. creation of age and time category variables), and one-hot encoding for categorical features
+- **Class Imbalance Handling**: Addressed class imbalance through undersampling techniques to improve model sensitivity
+- **Statistical Testing**: Conducted statistical testing (chi-squared, correlation coefficients, Mann–Whitney U) and visual analysis to identify key data patterns
+- **Model Training**: Trained and evaluated models such as Random Forest, Logistic Regression, Multi-Layer Perceptron (MLP), and K-Nearest Neighbours (KNN)
+- **Evaluation Metrics**: Assessed models using accuracy, True Positive Rate (TPR), False Positive Rate (FPR), and AUC metrics
   
 ## Key Findings
-- Transaction amount, product category, gender, purchase time, and customer age are significant predictors of fraud.
-- Random Forest achieved the best performance with 97% accuracy and AUC of 0.99, effectively balancing detection and false alarms.
+- **Top Predictors**: Transaction amount, product category, gender, purchase time, and customer age are significant predictors of fraud
+- **Best-Performing Model**: Random Forest achieved the best performance with 97% accuracy and AUC of 0.99, effectively balancing detection and false alarms
+- **Interpretability**: Model outputs explain how patterns differ across risk segments  
 
 ## Impact
-- Accurately flags suspicious transactions, reducing false alarms and undetected fraud.
-- Empowers financial institutions to streamline fraud monitoring and proactively manage risk.
-- Supports data-driven decision-making through explainable, model-backed insights.
+- **Reduced False Alarms**: Accurately flags suspicious transactions, reducing false alarms and undetected fraud
+- **Stronger Monitoring**: Empowers financial institutions to streamline fraud monitoring and proactively manage risk
+- **Supports Risk Strategy**: Supports data-driven decision-making through explainable, model-backed insights
 
 ## Recommendations
 - Increase monitoring during high-risk times and platforms based on model insights.
